@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/layout_expand"
+    tools:context=".Activity.DetailBarang">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="17dp"
+        android:src="@drawable/provious"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/detel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="Detail"
+        android:textColor="@color/coklat"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrllDetail"
+        android:layout_width="413dp"
+        android:layout_height="600dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginBottom="300dp"
+        app:layout_constraintBottom_toTopOf="@id/fkerxconsbottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/detel">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/bucketbunga"
+                    android:layout_width="325dp"
+                    android:layout_height="340dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvId1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="42dp"
+                    android:scrollbars="vertical"
+                    android:text="id"
+                    android:visibility="gone"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bucketbunga" />
+
+                <TextView
+                    android:id="@+id/bucket"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="42dp"
+                    android:layout_marginTop="10dp"
+                    android:scrollbars="vertical"
+                    android:text="Bucket"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tvId1" />
+
+                <TextView
+                    android:id="@+id/hargabucket"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="40dp"
+                    android:scrollbars="vertical"
+                    android:text="Rp. 35.000 - 125.000"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintLeft_toRightOf="@id/bucket"
+                    app:layout_constraintTop_toBottomOf="@id/bucketbunga" />
+
+                <TextView
+                    android:id="@+id/palsu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="42dp"
+                    android:layout_marginEnd="40dp"
+                    android:scrollbars="vertical"
+                    android:text="Isi bunga palsu"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/bucket" />
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:layout_constraintTop_toBottomOf="@id/hargabucket"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginRight="42dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/ic_baseline_favorite_24"
+                    />
+
+                <TextView
+                    android:id="@+id/textUkuran"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="42dp"
+                    android:scrollbars="vertical"
+                    android:text="Stok:"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/palsu" />
+
+                <TextView
+                    android:id="@+id/jenisUkuran"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:scrollbars="vertical"
+                    android:text="Xl"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    app:layout_constraintLeft_toRightOf="@id/textUkuran"
+                    app:layout_constraintTop_toBottomOf="@id/palsu" />
+
+                <View
+                    android:id="@+id/garisdatar"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="42dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="40dp"
+                    android:background="#EEC19F"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/textUkuran" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    app:layout_constraintTop_toBottomOf="@id/garisdatar"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="42dp"
+                    android:id="@+id/btnmin"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/kurang"/>
+                <TextView
+                    android:id="@+id/jumlah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:layout_marginLeft="3dp"
+                    app:layout_constraintLeft_toRightOf="@id/btnmin"
+                    app:layout_constraintTop_toBottomOf="@id/garisdatar"
+                    android:layout_marginTop="5dp"/>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    app:layout_constraintTop_toBottomOf="@id/garisdatar"
+                    app:layout_constraintLeft_toRightOf="@id/jumlah"
+                    android:layout_marginLeft="3dp"
+                    android:id="@+id/btnplus"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/tambah"/>
+
+                <TextView
+                    android:id="@+id/textdes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="42dp"
+                    android:layout_marginTop="5dp"
+                    android:scrollbars="vertical"
+                    android:text="Deskripsi"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/btnmin"/>
+
+                <TextView
+                    android:id="@+id/settotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    app:layout_constraintLeft_toRightOf="@id/textdes"
+                    app:layout_constraintTop_toBottomOf="@id/btnplus"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="42dp"/>
+
+                <TextView
+                    android:id="@+id/panjang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="42dp"
+                    android:layout_marginEnd="40dp"
+                    android:scrollbars="vertical"
+                    android:text="Produk 100% persis dengan foto"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textdes" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/fkerxconsbottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="#FCF3EE"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        >
+        <ImageView
+            android:id="@+id/chat"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:src="@drawable/comentcoklat"
+            android:layout_marginLeft="3dp"
+            />
+
+        <Button
+            android:textAllCaps="false"
+            android:id="@+id/fkerxbtnbeli"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/coklat"
+            android:text="+ Keranjang"
+            android:textSize="20dp"
+            app:cornerRadius="10dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/chat"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

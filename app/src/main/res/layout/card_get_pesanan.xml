@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/carSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:cardBackgroundColor="@color/white"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp">
+            <ImageView
+                android:id="@+id/tvimageView1"
+                android:layout_width="65dp"
+                android:layout_height="70dp"
+                android:background="@drawable/rokok"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginLeft="10dp"
+                />
+            <TextView
+                android:id="@+id/tbucket1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/tvimageView1"
+                android:text="Bucket"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:id="@+id/namabarang1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tbucket1"
+                android:text="Isi Bunga Mawar"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                app:layout_constraintLeft_toRightOf="@id/tvimageView1"
+                />
+            <TextView
+                android:id="@+id/jmlhbeli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/namabarang1"
+                app:layout_constraintLeft_toRightOf="@id/tvimageView1"
+                android:layout_marginLeft="10dp"
+                android:text="x1 pcs"
+                />
+            <TextView
+                android:id="@+id/txHarga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/jmlhbeli"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginRight="10dp"
+                android:text="Rp 100000"
+                android:textColor="@color/coklat"
+                android:textSize="20dp"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

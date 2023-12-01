@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="textInputLayout.GrayLabel"
+        parent="Widget.Design.TextInputLayout">
+        <item name="hintTextAppearance">@style/AppTheme.TextFloatLabelAppearance</item>
+    </style>
+
+    <style name="AppTheme.TextFloatLabelAppearance"
+        parent="TextAppearance.Design.Hint">
+        <!-- Floating label appearance here -->
+        <item name="android:textColor">@color/coklat</item>
+        <item name="android:backgroundTint">@color/coklat</item>
+    </style>
+</resources>

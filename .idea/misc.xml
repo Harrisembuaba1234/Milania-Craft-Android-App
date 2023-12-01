@@ -1,0 +1,71 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/drawable/bottom_navigation_selector.xml" value="0.1375" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/drawable/ic_baseline_add_a_photo_24.xml" value="0.154" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/drawable/ic_baseline_assignment_24.xml" value="0.1375" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.154" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.1375" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/drawable/ic_baseline_local_shipping_24.xml" value="0.1375" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.16" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/drawable/ic_baseline_request_page_24.xml" value="0.1375" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/drawable/navigation.xml" value="0.1375" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/drawable/radius_alert.xml" value="0.1375" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/drawable/rectangle.xml" value="0.1375" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/drawable/round_bar.xml" value="0.1375" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/drawable/textrounded.xml" value="0.1375" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/activity_bottom_navigation.xml" value="0.25" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/activity_cari_data.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/activity_detail_barang.xml" value="0.22" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/activity_detail_cari.xml" value="0.17527173913043478" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/activity_detail_fav.xml" value="0.17527173913043478" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/activity_edit_alamat.xml" value="0.33" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/activity_edit_profile.xml" value="0.22" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/activity_ganti_password.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/activity_input_alamat.xml" value="0.22" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/activity_keranjang.xml" value="0.25" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/activity_lihat_alamat.xml" value="0.21" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/activity_login.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/activity_lupa_password.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/activity_pilih_alamat.xml" value="0.25" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/activity_register.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/activity_rincian_dibatalkan.xml" value="0.22" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/activity_rincian_dikemas.xml" value="0.25" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/activity_rincian_dikirim.xml" value="0.22" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/activity_rincian_pesan.xml" value="0.22" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/activity_rincian_selesai.xml" value="0.25" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/activity_transaksi.xml" value="0.25" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/activity_ubah_password.xml" value="0.22" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/activity_validasi_password.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/activity_validasi_register.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/alert_logout.xml" value="0.25" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/alert_upload.xml" value="0.33" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/card_alamat.xml" value="0.33" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/card_barang.xml" value="0.22" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/card_cari.xml" value="0.33" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/card_daftar_alamat.xml" value="0.25" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/card_fav.xml" value="0.5" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/card_get_pesanan.xml" value="0.25" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/card_history.xml" value="0.33" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/card_kemas.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/card_keranjang.xml" value="0.25" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/card_transaksi.xml" value="0.33" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/fragment_favorit.xml" value="0.17527173913043478" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/fragment_notify.xml" value="0.22" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/no_koneksi.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/layout/notif_dialog.xml" value="0.33" />
+        <entry key="..\:/Users/bagus/AndroidStudioProjects/MilaniaCraft/app/src/main/res/menu/menu_button.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
